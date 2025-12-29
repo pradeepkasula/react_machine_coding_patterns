@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.tabs-header {
+  display: flex;
+}
+
+.tab-button {
+  padding: 10px 30px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.tab-button.active {
+  background: #fff;
+  font-weight: bold;
+  color: #007bff;
+  /* Add blue color for active tab */
+}
+
+.tab-button:hover {
+  background: #e0e0e0;
+}
+
+.tab-button.active:hover {
+  background: #fff;
+  /* Keep active tab background white on hover */
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
